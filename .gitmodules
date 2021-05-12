@@ -4,3 +4,6 @@
 [submodule "yeganathan.github.io"]
 	path = yeganathan.github.io
 	url = https://github.com/yeganathan18/yeganathan.github.io
+[submodule "yeganathan18.github.io"]
+	path = yeganathan18.github.io
+	url = https://github.com/yeganathan18/yeganathan18.github.io.git
