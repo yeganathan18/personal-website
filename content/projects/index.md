@@ -36,5 +36,5 @@ title = "Top Projects"
 {{</projects>}} -->
 
 {{<project-footer link="https://github.com/yeganathan18">}}
-    For more projects, checkout my
+    For other projects, checkout my
 {{</project-footer>}}
