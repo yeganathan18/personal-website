@@ -1,0 +1,33 @@
+<style>
+    @media (max-width:425px) {
+        .project-footer{
+            width: 350px;
+            padding-left: 40px;
+        }
+    }
+    @media (max-width:375px) {
+        .project-footer{
+            width: 300px;
+        }
+    }
+    @media (max-width:320px) {
+        .project-footer{
+            width: 250px;
+        }
+    }
+    .project-footer{
+        text-align: center;
+        font-size: 1.2rem;
+        padding-top: 0.5px;
+    }
+    .project-footer-a{
+        text-decoration: underline;
+        color: rgb(144, 252, 220);
+    }
+</style>
+
+<section id="main">
+        <div class="project-footer">
+            <p> {{.Inner}} <a class="project-footer-a" href="{{.Get "link" }}">Github profile</a></p>
+        </div>
+</section>

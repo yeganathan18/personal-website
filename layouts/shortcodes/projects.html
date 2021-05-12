@@ -1,0 +1,51 @@
+<style>
+    @media all and (max-width: 480px) {
+        img {
+        display: block;
+        margin: 0 auto;
+        }
+    }
+    
+    /* .center-title-container,
+    .content-description-container {
+        text-align: center;
+    } */
+
+    .content-shadow-container {
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        padding: 2em;
+        margin: 2em;
+    }
+
+    .content-long-shadow-container {
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        padding: 2em;
+        padding-left: 23%;
+        margin: 2em;
+    }
+
+    .content-mobile-long-shadow-container {
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        padding: 2em;
+        padding-left: 30%;
+        margin: 2em;
+    }
+
+    .content-shadow-container:hover,  
+    .content-long-shadow-container:hover, 
+    .content-mobile-long-shadow-container:hover{
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    } 
+
+    a{
+        text-decoration: none;
+    }
+</style>
+
+<section id="main">
+    <a href="{{.Get "link" }}">
+        <div class="content-shadow-container center-title-container">
+            <p>{{.Inner}}</p>
+        </div>
+    </a>    
+</section>
