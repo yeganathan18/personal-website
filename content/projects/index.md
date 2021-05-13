@@ -2,7 +2,7 @@
 title = "Top Projects"
 +++
 
-{{<projects link="https://github.com/yeganathan18/Quiz-App-using-Vanilla-JavaScript">}}
+{{<projects link="https://github.com/yeganathan18/js-scratchpad/tree/main/QuizApp">}}
 
     <h3>Quiz App</h3>
     A Customizable Quiz App made using Vanilla JavaScript.
@@ -11,7 +11,7 @@ title = "Top Projects"
 {{</projects>}}
 
 
-{{<projects link="https://github.com/yeganathan18/Calculator-using-Vanilla-Javascript">}}
+{{<projects link="https://github.com/yeganathan18/js-scratchpad/tree/main/Calculator">}}
 
     <h3>Calculator</h3>
     A Simple Calculator made using HTML, CSS and Vanilla JavaScript.
